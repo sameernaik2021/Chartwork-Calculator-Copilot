@@ -1,0 +1,348 @@
+Chartwork Calculator
+===================
+A Chartwork Calculator is a tool—traditionally done manually with a nautical chart, dividers, parallel rulers, compass, and calculator, and now often assisted by software—that helps a navigator perform the mathematical calculations required for marine navigation.
+In simple terms:
+It takes information about a ship's position, route, speed, time, wind/current, etc., and helps determine where the ship should go, how long it will take, and how environmental forces will affect its movement.
+It is particularly useful when studying Nautical Science, navigation, and deck-officer subjects.
+
+1. Distance
+A chartwork calculator can determine the distance between two positions.
+For example:
+Position A ───────────────────────► Position B
+              120 nautical miles
+If the ship needs to travel from A to B and the distance is 120 nautical miles, that distance can be used for ETA calculations.
+Important unit
+Marine navigation normally uses the nautical mile (NM).
+1 nautical mile = 1 minute of latitude approximately.
+
+2. Course
+A course is the direction in which the ship is intended to travel.
+Courses are normally expressed in degrees from north:
+    • 000° → North
+    • 090° → East
+    • 180° → South
+    • 270° → West
+Suppose the calculated route from Point A to Point B has a direction of:
+075°
+The navigator can use this information when planning the passage.
+However, nautical calculations distinguish between different types of direction, such as:
+    • True course
+    • Magnetic course
+    • Compass course
+    • Course over ground
+Understanding the difference is important.
+
+3. Speed
+Ship speed is normally expressed in knots.
+What is a knot?
+1 knot = 1 nautical mile per hour.
+So if a ship travels at:
+12 knots
+it theoretically travels:
+12 nautical miles in one hour.
+
+4. Distance–Speed–Time Calculation
+One of the fundamental calculations in navigation is:
+Time=DistanceSpeedTime = \frac{Distance}{Speed}
+For example:
+Distance = 120 NM
+Speed = 12 knots
+Therefore:
+Time=12012=10 hoursTime = \frac{120}{12}=10\text{ hours}
+So the ship would require approximately 10 hours, assuming the speed remains constant and ignoring other effects.
+Similarly:
+Distance=Speed×TimeDistance = Speed \times Time
+and:
+Speed=DistanceTimeSpeed = \frac{Distance}{Time}
+These three relationships are fundamental to chartwork.
+
+5. ETA — Estimated Time of Arrival
+ETA means Estimated Time of Arrival.
+A chartwork calculator can help determine when a ship should reach a particular waypoint or destination.
+Suppose:
+    • Departure: 08:00
+    • Distance: 180 NM
+    • Speed: 15 knots
+Then:
+Time=18015=12 hoursTime = \frac{180}{15}=12\text{ hours}
+Therefore:
+ETA ≈ 20:00
+This is a simplified calculation. Real voyage planning can require adjustments for currents, weather, traffic, speed changes, and other factors.
+
+6. Set and Drift
+This is one of the most important concepts in nautical navigation.
+Imagine that your ship is trying to travel north.
+                  Intended track
+                       ↑
+                       │
+                       │
+                       │
+                       │
+                       │
+                  Ship's route
+But there is an ocean current moving toward the east.
+Current
+──────────────►
+The current pushes the ship sideways.
+Therefore, although the ship is moving through the water in one direction, its actual movement over the Earth's surface may be different.
+This is called set and drift.
+Set
+Set = the direction in which the current carries the vessel.
+Drift
+Drift = the speed at which the current carries the vessel.
+For example:
+Current:
+    • Set = 090°
+    • Drift = 2 knots
+This means the current is carrying the vessel toward 090° (east) at 2 knots.
+
+7. Course Through Water vs Course Over Ground
+This distinction is extremely important.
+Course Through Water
+The direction in which the vessel moves relative to the surrounding water.
+Course Over Ground (COG)
+The actual direction in which the vessel moves relative to the Earth's surface.
+If there is a current:
+                 COG
+                ↗
+               /
+              /
+             ●
+            /
+           ↑
+     Ship's movement
+The ship's movement through the water and its movement over the ground can differ.
+A chartwork calculator can help determine the relationship between:
+Ship's velocity + Current velocity = Resultant velocity
+This is essentially a vector problem.
+
+8. Vector Triangle
+Set and drift calculations often use vectors.
+Suppose:
+    • Ship's speed through water = 12 knots
+    • Current = 2 knots
+    • Current set = 090°
+The navigator wants to know what course to steer to achieve a desired track.
+These quantities can be represented graphically:
+             Resultant / COG
+                  ↗
+                 /
+                /
+               /
+              ●────────►
+             /
+            /
+           ↑
+      Ship's velocity
+The exact calculation depends on the desired track and current direction.
+This is why trigonometry and vector mathematics are important in Nautical Science.
+
+9. Course to Steer
+Suppose you want your ship to follow a particular track, but a current is pushing the ship sideways.
+You cannot necessarily steer directly toward the destination.
+Instead, you may need to steer into the current.
+For example:
+                 Destination
+                     ●
+                    /
+                   /
+                  /
+                 /
+        Ship ───●
+                ↖
+             Course
+            to steer
+
+Current ─────────────►
+The navigator calculates a course to steer that compensates for the current.
+This is called current correction or tidal/current correction, depending on the situation.
+
+10. Dead Reckoning (DR)
+Chartwork calculators are also useful for dead reckoning.
+Dead reckoning estimates the vessel's position using information such as:
+    • Previous known position
+    • Course
+    • Speed
+    • Time
+For example:
+A ship starts at:
+Position A
+and travels:
+090° at 10 knots for 3 hours
+Distance traveled:
+10×3=30 NM10 \times 3 = 30\text{ NM}
+The navigator can plot the resulting position on the chart.
+This produces a DR position.
+
+11. Estimated Position (EP)
+An Estimated Position (EP) can incorporate additional information, such as the effects of current.
+Conceptually:
+DR position
+     ●
+      \
+       \
+        ● EP
+The difference between the DR position and the estimated position can result from environmental effects such as current.
+
+12. Fixing the Ship's Position
+A navigator may also need to determine the vessel's actual position using observations.
+Traditional methods include:
+    • Bearings of landmarks
+    • Astronomical observations
+    • Radar ranges/bearings
+    • Visual observations
+Modern navigation may also use:
+    • GNSS/GPS
+    • Radar
+    • ECDIS
+    • AIS and other navigation information
+Chartwork remains important because navigators need to understand how position determination works, not merely read a GPS display.
+
+13. Bearings
+A bearing describes the direction of an object from the vessel.
+For example:
+Lighthouse bearing = 045°
+This means the lighthouse is approximately northeast of the vessel.
+Multiple bearings can be used to establish a position.
+For example:
+        Lighthouse
+             ●
+            /
+           /
+          /
+         ● Ship
+          \
+           \
+            \
+             ● Island
+The navigator can use bearings from known objects to determine the ship's position on the chart.
+
+14. Course, Bearing, and Heading Are Not the Same
+These terms are often confused by beginners.
+Heading
+The direction the ship's bow is pointing.
+Course
+The intended direction of travel.
+Bearing
+The direction of an object relative to the ship or a reference direction.
+Course Over Ground
+The actual direction the vessel is moving over the Earth's surface.
+A chartwork calculator can help relate these different quantities.
+
+15. ETA With Current
+Suppose:
+    • Distance = 240 NM
+    • Ship speed = 12 knots
+Without current:
+Time=24012=20 hoursTime = \frac{240}{12}=20\text{ hours}
+But if environmental conditions cause the vessel's actual speed over ground to become, for example, 10 knots, then:
+Time=24010=24 hoursTime = \frac{240}{10}=24\text{ hours}
+So the ETA changes significantly.
+This is why navigation calculations cannot always be based simply on the engine's stated speed.
+
+16. Why Chartwork Calculators Are Important in Nautical Science
+Learning chartwork develops the ability to answer practical navigation questions such as:
+Where am I?
+Where am I going?
+Which course should I steer?
+How far do I have to travel?
+How long will it take?
+What effect will the current have?
+Where will I actually be after several hours?
+When should I expect to arrive?
+These are fundamental questions for a navigating officer.
+
+17. Typical Inputs and Outputs
+A chartwork calculator may take inputs such as:
+Inputs
+    • Latitude
+    • Longitude
+    • Distance
+    • Course
+    • Speed
+    • Time
+    • Departure time
+    • Current direction
+    • Current speed
+    • Wind information
+    • Magnetic variation
+    • Deviation
+    • Bearings
+Outputs
+    • Distance
+    • Course
+    • Position
+    • ETA
+    • Speed
+    • Set
+    • Drift
+    • Course to steer
+    • Estimated position
+    • Dead-reckoning position
+    • Current correction
+
+18. Example: Complete Simple Problem
+Suppose:
+Starting position: Point A
+Destination: Point B
+Distance: 150 NM
+Ship speed: 15 knots
+Step 1 — Calculate time
+Time=15015=10 hoursTime=\frac{150}{15}=10\text{ hours}
+Step 2 — Departure
+Suppose departure is:
+06:00
+Step 3 — Calculate ETA
+10 hours after 06:00:
+ETA = 16:00
+Now suppose a current reduces the effective speed over ground to 12 knots.
+Then:
+Time=15012=12.5 hoursTime=\frac{150}{12}=12.5\text{ hours}
+Therefore:
+ETA ≈ 18:30
+This simple example demonstrates why environmental conditions matter.
+
+19. Traditional Chartwork vs Software
+There are two important approaches.
+Traditional chartwork
+Uses:
+    • Paper nautical charts
+    • Dividers
+    • Parallel rulers
+    • Compass
+    • Protractor
+    • Nautical almanac
+    • Calculator
+Electronic navigation
+Uses systems such as:
+    • ECDIS
+    • GNSS
+    • Radar
+    • Electronic plotting
+    • Integrated bridge systems
+A chartwork calculator can sit between these worlds: it teaches the mathematical principles behind navigation and can also automate calculations.
+
+20. What You Should Learn First
+If you're studying Nautical Science, don't start by memorizing calculator buttons.
+Learn in this order:
+    1. Latitude and longitude
+    2. Nautical miles
+    3. Compass directions and degrees
+    4. Course and bearing
+    5. Speed, distance and time
+    6. Dead reckoning
+    7. Position fixing
+    8. True, magnetic and compass directions
+    9. Variation and deviation
+    10. Set and drift
+    11. Course to steer
+    12. ETA calculations
+    13. Tides and tidal streams
+    14. Chart symbols and publications
+    15. Electronic navigation systems
+Once these concepts are clear, a chartwork calculator becomes much easier to use.
+The key idea
+Think of a chartwork calculator as a navigation mathematics assistant:
+Chart + Position + Course + Speed + Time + Current → Calculated route, position, ETA, and course to steer.
+And importantly, the calculator is not the navigator. A deck officer needs to understand the underlying navigation principles so that the results can be interpreted, checked, and used safely.
+
